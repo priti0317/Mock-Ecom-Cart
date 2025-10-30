@@ -292,3 +292,26 @@ Priti Giri
 
 Full Stack Developer | IT Student at Techno Main Salt Lake
 
+---
+
+Register
+![Register](RegisterPage.jpg)
+
+Login
+![Login](LoginPage.jpg)
+
+ProductList
+![ProductList](ProductListPage.jpg)
+
+ItemCart
+![ItemCart](ItemCartPage.jpg)
+
+CheckoutBill
+![Checkout](CheckoutPage1.jpg)
+![Checkout](CheckoutPage2.jpg)
+
+PaymentReceipt
+![Receipt](ReceiptPage1.jpg)
+![Receipt](ReceiptPage2.jpg)
+
+
