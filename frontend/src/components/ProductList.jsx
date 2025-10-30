@@ -9,6 +9,13 @@ export default function ProductList() {
   const [successMessage, setSuccessMessage] = useState("");
   const [zoomedImage, setZoomedImage] = useState(null); // 👈 for image popup
   const navigate = useNavigate();
+  const handleLogout = () => {
+
+    localStorage.removeItem("token");
+
+    navigate("/login");
+
+  };
 
   useEffect(() => {
     API.get("/products")
@@ -85,6 +92,9 @@ export default function ProductList() {
             <span className="cart-icon">🛒</span>
             <span>Cart</span>
           </button>
+          <button className="nav-btn-logout" onClick={handleLogout}>
+                Logout
+              </button>
         </div>
       </header>
 
@@ -134,3 +144,4 @@ export default function ProductList() {
     </div>
   );
 }
+
